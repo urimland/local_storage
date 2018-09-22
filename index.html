@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <title>Local Storage Lesson</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <form id="movieForm">
+
+                <div class="form-group">
+                    <label for="Title">Title</label>
+                    <input type="text" class="form-control" id="Title" aria-describedby="Title" placeholder="Enter title">
+                    <label for="Year">Year</label>
+                    <input type="text" class="form-control" id="Year" placeholder="Enter year">
+                    <input type="checkbox" class="form-check-input" id="Adult">
+                    <label class="form-check-label" for="Adult">Is movie age restricted?</label>
+                </div>
+                <button type="button" onclick="formSubmit()" class="btn btn-primary">Submit</button>
+
+            </form>
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
